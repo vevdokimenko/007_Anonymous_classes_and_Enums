@@ -12,21 +12,21 @@ public enum Vechicles {
     MERCEDES(1000) {
         @Override
         String getColor() {
-            return " color=Black";
+            return "Black";
         }
     },
 
     AUDI (800) {
         @Override
         String getColor() {
-            return " color=White";
+            return "White";
         }
     },
 
     VOLKSWAGEN(700) {
         @Override
         String getColor() {
-            return " color=Red";
+            return "Red";
         }
     };
 
@@ -38,10 +38,9 @@ public enum Vechicles {
 
     @Override
     public String toString() {
-        return this.name() +
-                " " +
-                "price=" + price +
-                getColor()
+        return this.name() + " " +
+                "price=" + price + " " +
+                "color=" + getColor()
                 ;
     }
 
