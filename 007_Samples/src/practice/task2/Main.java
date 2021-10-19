@@ -10,8 +10,8 @@ package practice.task2;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(Vechicles.MERCEDES.getColor());
-        System.out.println(Vechicles.AUDI.getColor());
-        System.out.println(Vechicles.VOLKSWAGEN.getColor());
+        System.out.println(Vechicles.MERCEDES);
+        System.out.println(Vechicles.AUDI);
+        System.out.println(Vechicles.VOLKSWAGEN);
     }
 }
