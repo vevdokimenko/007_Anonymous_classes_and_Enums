@@ -8,7 +8,7 @@ package practice.task2;
 * цветом и стоимостью автомобиля.
 * */
 
-public enum Vechicles {
+public enum Vehicles {
     MERCEDES(1000) {
         @Override
         String getColor() {
@@ -30,9 +30,9 @@ public enum Vechicles {
         }
     };
 
-    private int price;
+    private final int price;
 
-    private Vechicles(int price) {
+    Vehicles(int price) {
         this.price = price;
     }
 
